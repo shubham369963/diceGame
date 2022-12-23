@@ -1,0 +1,83 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.first {
+  background-color: #bfdcf1;
+  top: 50%;
+  left: 50%;
+  color: #000000;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: calc(100vh - 30rem);
+  width: 80rem;
+  border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.first #new {
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", "Oswald", sans-serif;
+  font-size: 4rem;
+}
+.first .dice {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 70rem;
+}
+.first .dice img {
+  border-radius: 2rem;
+  height: 20rem;
+  width: 20rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.first .dice .yes {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: #0000ff;
+  border-radius: 2.5rem;
+  height: 4.5rem;
+  font-size: 1rem;
+  font-family: "Poppins", "Oswald", sans-serif;
+}
+.first .no {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+}
+.first .no button {
+  width: 20rem;
+  height: 7rem;
+  border-radius: 3rem;
+  color: #0000ff;
+  background-color: #000000;
+  border: solid 0.1rem #0000ff;
+  font-size: 3rem;
+  font-family: "Poppins", "Oswald", sans-serif;
+}
+.first .no button:hover {
+  background-color: #e8e8eb;
+  color: #08089c;
+}/*# sourceMappingURL=style.css.map */
